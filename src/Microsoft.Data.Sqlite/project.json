@@ -1,5 +1,5 @@
-﻿{
-    "version": "1.0.0-*",
+{
+    "version": "1.0.0-beta6",
     "description": "SQLite implementation of the System.Data.Common provider model.",
     "frameworks": {
         "net45": {
@@ -9,8 +9,8 @@
         },
         "dnx451": {
             "dependencies": {
-                "Microsoft.Framework.Runtime.Abstractions": "1.0.0-*",
-                "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-*"
+                "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6",
+                "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-beta6"
             },
             "frameworkAssemblies": {
                 "System.Data": "4.0.0.0"
@@ -18,24 +18,24 @@
         },
         "dnxcore50": {
             "dependencies": {
-                "System.AppContext": "4.0.0-*",
-                "System.Data.Common": "4.0.0-*",
-                "System.IO.FileSystem": "4.0.0-*",
-                "System.Linq": "4.0.0-*",
-                "System.Runtime.InteropServices": "4.0.20-*",
-                "Microsoft.Framework.Runtime.Abstractions": "1.0.0-*",
-                "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-*"
+                "System.AppContext": "4.0.0-beta-23109",
+                "System.Data.Common": "4.0.0-beta-23109",
+                "System.IO.FileSystem": "4.0.0-beta-23109",
+                "System.Linq": "4.0.0-beta-23109",
+                "System.Runtime.InteropServices": "4.0.20-beta-23109",
+                "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6",
+                "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-beta6"
             }
         },
         "dotnet": {
             "dependencies": {
-                "System.Data.Common": "4.0.0-*",
-                "System.Globalization": "4.0.10-*",
-                "System.Linq": "4.0.0-*",
-                "System.Reflection": "4.0.10-*",
-                "System.Runtime.InteropServices": "4.0.20-*",
-                "System.Text.Encoding": "4.0.10-*",
-                "System.Threading.Tasks": "4.0.10-*"
+                "System.Data.Common": "4.0.0-beta-23109",
+                "System.Globalization": "4.0.10-beta-23109",
+                "System.Linq": "4.0.0-beta-23109",
+                "System.Reflection": "4.0.10-beta-23109",
+                "System.Runtime.InteropServices": "4.0.20-beta-23109",
+                "System.Text.Encoding": "4.0.10-beta-23109",
+                "System.Threading.Tasks": "4.0.10-beta-23109"
             }
         }
     }
