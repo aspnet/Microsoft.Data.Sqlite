@@ -17,7 +17,7 @@
     }
   },
   "dependencies": {
-    "SQLite": "3.13.0"
+    "sqlite": "3.13.0"
   },
   "frameworks": {
     "net451": {
